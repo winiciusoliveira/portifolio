@@ -1,0 +1,38 @@
+/* pages/especialidades.css */
+
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex {
+    gap: 60px
+}
+
+section.especialidades .especialidades-box {
+    color: var(--cor-texto-claro);
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: 0.3s;
+}
+
+section.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 7px #dddddd38;
+}
+
+section.especialidades .especialidades-box i {
+    font-size: 70px;
+    color: var(--cor-primaria);
+}
+
+section.especialidades .especialidades-box h3 {
+    font-size: 18px;
+    color: var(--cor-texto-claro);
+    margin: 15px 0;
+}
+
+section.especialidades .especialidades-box p {
+    font-size: 15px;
+    color: var(--cor-texto-claro);
+}

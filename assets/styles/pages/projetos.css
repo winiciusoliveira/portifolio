@@ -1,0 +1,46 @@
+/* pages/projetos.css */
+
+section.projetos {
+    padding: 80px 4%;
+}
+
+section.projetos .flex {
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+section.projetos .flex .projetos-img {
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    border-radius: 40px;
+    position: relative;
+}
+
+section.projetos .flex .projetos-img:hover {
+    background-position: 100% 100%;
+}
+
+section.projetos .flex .projetos-img .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--cor-overlay);
+    width: 100%;
+    height: 100%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-texto-claro);
+    font-size: 24px;
+    font-weight: 600;
+    opacity: 0;
+    transition: .5s;
+}
+
+section.projetos .flex .projetos-img .overlay:hover {
+    opacity: 1;
+}

@@ -1,0 +1,37 @@
+/* pages/topo-site.css */
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 125px;
+}
+
+section.topo-do-site .topo-do-site-text h1 {
+    color: var(--cor-texto-claro);
+    font-size: 45px;
+    line-height: 1.0;
+}
+
+section.topo-do-site .topo-do-site-text p {
+    color: var(--cor-texto-claro);
+    margin: 40px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+section.topo-do-site .topo-site-img img {
+    width: 400px;
+    height: auto;
+    border-radius: 20%;
+}
+
+section.topo-do-site .topo-site-img img:hover {
+    transform: scale(1.1);
+    border-radius: 20%;
+    transition: 0.3s;
+}
